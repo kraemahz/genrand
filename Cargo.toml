@@ -8,7 +8,7 @@ description = "Generate random alphanumeric strings"
 license = "MIT"
 categories = ["utilities"]
 homepage = "https://github.com/kraemahz/genrand"
-repository = "git@github.com:kraemahz/genrand.git"
+repository = "https://github.com/kraemahz/genrand"
 readme = "README.md"
 
 [dependencies]
