@@ -13,4 +13,13 @@ readme = "README.md"
 
 [dependencies]
 clap = { version = "4.5.20", features = ["derive"] }
-rand = "0.8.5"
+rand_core = { version = "0.6.4", features = ["getrandom"] }
+
+[lints.clippy]
+cargo = "allow"
+complexity = "deny"
+correctness = "deny"
+pedantic = "deny"
+perf = "deny"
+style = "deny"
+suspicious = "deny"
