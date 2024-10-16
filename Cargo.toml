@@ -3,6 +3,11 @@ name = "genrand"
 version = "0.1.0"
 edition = "2021"
 
+authors = ["Teague Lasser <contact@teague.info>"]
+description = "Generate random alphanumeric strings"
+license = "MIT"
+categories = ["utilities"]
+
 [dependencies]
 clap = { version = "4.5.20", features = ["derive"] }
 rand = "0.8.5"
